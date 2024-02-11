@@ -41,6 +41,12 @@
     
 }
 
+.input{
+background-color:#BDBDBD ;
+font-family: sans-serif;
+
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -95,11 +101,10 @@ body, html {
     color: black;
     border: none;
     cursor: pointer;
-    transition: width 0.5s; /* animação de transição */
+    /*transition: width 0.5s;  animação de transição */
     font-family: sans-serif;
     font-weight: bold;
 }
-
 
 .buttonentenda {
     border-radius: 25px;
@@ -108,7 +113,6 @@ body, html {
     background-color:white;
     border-color: #45FEFE;
     cursor: pointer;
-    transition: width 0.5s; /* animação de transição */
     font-family: sans-serif;
     font-weight: bold;
 }
