@@ -8,7 +8,10 @@
 
 .input-text {
     background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+    border: 1px solid #BDBDBD;
+    height: 50px;
+    width: 343px ;
+    border-radius: 5px;
 }
 
 body, html {
@@ -30,9 +33,9 @@ body, html {
 }
 
 .buttoncalc {
-    width: 20%;
-    height: 10%;
-    border-radius: 20%;
+    border-radius: 25px;
+    width: 100%; /* largura igual à largura da div */
+    height: 50px;
     background-color: #45FEFE;
     color: white;
     border: none;
@@ -42,7 +45,9 @@ body, html {
 
 
 .buttonentenda {
-    border-radius: 20%;
+    border-radius: 25px;
+    width: 100%; /* largura igual à largura da div */
+    height: 50px;
     background-color:white;
     border-color: #45FEFE;
     cursor: pointer;
@@ -52,4 +57,8 @@ body, html {
 
 .button:hover {
     width: 200px; /* ao passar o mouse, o botão vai para a largura máxima */
+}
+
+h1{
+ text-align: center;
 }
