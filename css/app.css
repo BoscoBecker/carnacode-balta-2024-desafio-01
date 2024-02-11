@@ -10,3 +10,46 @@
     background-color: #F6F6F6;
     border: 2px solid #BDBDBD;
 }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px; /* largura desejada */
+    height: 400px; /* altura desejada */
+    /*border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttoncalc {
+    width: 20%;
+    height: 10%;
+    border-radius: 20%;
+    background-color: #45FEFE;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: width 0.5s; /* animação de transição */
+}
+
+
+.buttonentenda {
+    border-radius: 20%;
+    background-color:white;
+    border-color: #45FEFE;
+    cursor: pointer;
+    transition: width 0.5s; /* animação de transição */
+}
+
+
+.button:hover {
+    width: 200px; /* ao passar o mouse, o botão vai para a largura máxima */
+}
